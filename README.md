@@ -3,25 +3,24 @@ User interface specification document  for the user management
 
 ## Requirements
 
--User interface to perform the following actions:
-
-  -View a list of existing users.
-  -Hide disabled users.
-  -Add a new user.
-  -Edit new user details.
-  -Save new user.
+- User interface to perform the following actions:
+  - View a list of existing users.
+  -  Hide disabled users.
+  -  Add a new user.
+  -  Edit new user details.
+  -  Save new user.
 
 ## UI Components
   
-  **User List**
+1. **User List**
     - Display a table listing all existing users.
     - Each row should display the user's username, email, and enabled status.
     - Clicking on a user's row should highlight it.
-  **New User Form**
+2. **New User Form**
      - Display a form to add a new user.
      - Include input fields for the user's username, display name, phone, email, user roles, and enabled status.
      - Include a "Save" button to create the user.
-  **Hide Disabled User Checkbox**
+3. **Hide Disabled User Checkbox**
      - Include a checkbox labeled "Hide Disabled Users" above the User List.
      - When the checkbox is checked, hide the rows of users with the "enabled" status set to disabled.
      - When the checkbox is unchecked, show all users in the User List.
